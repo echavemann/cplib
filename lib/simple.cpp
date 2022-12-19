@@ -1,7 +1,9 @@
 #include <iostream>
-#include <bits/stdc++.h>
+#include <string>
 
-int print(String k)
+using namespace std;
+
+int print(string k)
 {
     std::cout << k << std::endl;
     return 0;
@@ -15,7 +17,7 @@ int compare(int a, int b)
     }
     else if (a < b)
     {
-        print("no")
+        print("no");
     }
     else
     {
