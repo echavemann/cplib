@@ -1,15 +1,16 @@
 #include <iostream>
 #include <string>
+#define ll long long
 
 using namespace std;
 
-int print(string k)
+ll print(string k)
 {
     std::cout << k << std::endl;
     return 0;
 }
 
-int compare(int a, int b)
+ll compare(ll a, ll b)
 {
     if (a > b)
     {
