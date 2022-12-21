@@ -6,7 +6,7 @@ using namespace std;
 
 ll print(string k)
 {
-    std::cout << k << std::endl;
+    cout << k << endl;
     return 0;
 }
 
