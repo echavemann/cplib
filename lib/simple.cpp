@@ -24,4 +24,5 @@ ll compare(ll a, ll b)
     {
         print("equal");
     }
+    return 0;
 }

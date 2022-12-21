@@ -5,15 +5,15 @@ using namespace std;
 
 void solve()
 {
-    // your code goes here
+    // your code here
 }
 
 int main()
 {
     ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+    std::cin.tie(NULL);
     ll t;
-    cin >> t;
+    std::cin >> t;
     while (t--)
     {
         solve();
