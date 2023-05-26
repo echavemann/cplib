@@ -4,6 +4,7 @@
 #define pb push_back
 #define F first
 #define S second
+#define vt vector
 using namespace std;
 
 void solve()
