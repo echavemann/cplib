@@ -10,7 +10,7 @@ typedef pair<ll,ll> pl;
 #define umap unordered_map
 #define MP make_pair;
 #define vt vector
-#define REP(i, a) for (int i = 0; i < b; i++) // rep is 0 indexed
+#define REP(i, a) for (int i = 0; i < a; i++) // rep is 0 indexed
 using namespace std;
 
 void solve()
