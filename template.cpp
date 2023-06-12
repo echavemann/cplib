@@ -6,6 +6,8 @@
 #define S second
 typedef vector<ll> vl;
 typedef pair<ll,ll> pl;
+#define uset unordered_set
+#define umap unordered_map
 #define MP make_pair;
 #define vt vector
 #define REP(i, a) for (int i = 0; i < b; i++) // rep is 0 indexed
