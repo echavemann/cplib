@@ -8,7 +8,7 @@ typedef vector<ll> vl;
 typedef pair<ll,ll> pl;
 #define MP make_pair;
 #define vt vector
-#define REP(i, a, b) for (int i = a; i < b; i++)
+#define REP(i, a) for (int i = 0; i < b; i++) // rep is 0 indexed
 using namespace std;
 
 void solve()
