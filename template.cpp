@@ -1,3 +1,4 @@
+#pragma GCC optimize("O2,no-stack-protector,unroll-loops,fast-math")
 #include <iostream>
 #include <bits/stdc++.h>
 #define ll long long
@@ -8,7 +9,12 @@
 #define umap unordered_map
 #define MP make_pair;
 #define vt vector
-#define REP(i, a) for (int i = 0; i < a; i++) // rep is 0 indexed
+#define all(x) begin(x), end(x)
+#define sz(x) (int)x.size()
+#define REP(i, a) for (int i = 0; i < a; i++)
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
+
 using namespace std;
 
 typedef vector<ll> vl;
