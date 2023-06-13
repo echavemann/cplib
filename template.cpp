@@ -4,8 +4,6 @@
 #define PB push_back
 #define F first
 #define S second
-typedef vector<ll> vl;
-typedef pair<ll,ll> pl;
 #define uset unordered_set
 #define umap unordered_map
 #define MP make_pair;
@@ -13,9 +11,13 @@ typedef pair<ll,ll> pl;
 #define REP(i, a) for (int i = 0; i < a; i++) // rep is 0 indexed
 using namespace std;
 
+typedef vector<ll> vl;
+typedef pair<ll,ll> pl;
+
 void solve()
 {
     // your code here
+    
 }
 
 int main()
