@@ -12,8 +12,8 @@
 #define all(x) begin(x), end(x)
 #define sz(x) (int)x.size()
 #define REP(i, a) for (int i = 0; i < a; i++)
-using pii = pair<int, int>;
-using pll = pair<ll, ll>;
+#define pii pair<int, int>;
+#define pll pair<ll, ll>;
 
 using namespace std;
 
