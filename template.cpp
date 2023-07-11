@@ -2,13 +2,14 @@
 #include <iostream>
 #include <bits/stdc++.h>
 #define ll long long
+#define lli long long int
 #define MOD 1000000007
 #define PB push_back
 #define F first
 #define S second
 #define uset unordered_set
 #define umap unordered_map
-#define MP make_pair;
+#define MP make_pair
 #define vt vector
 #define all(x) begin(x), end(x)
 #define rall(x) rbegin(x), rend(x)
