@@ -2,19 +2,22 @@
 #include <iostream>
 #include <bits/stdc++.h>
 #define ll long long
+#define db double
 #define MOD 1000000007
 #define PB push_back
 #define F first
 #define S second
 #define uset unordered_set
 #define umap unordered_map
-#define MP make_pair;
+#define MP make_pair
 #define vt vector
 #define all(x) begin(x), end(x)
 #define rall(x) rbegin(x), rend(x)
 #define sz(x) (int)x.size()
 #define REP(i, a) for (int i = 0; i < a; i++)
 #define pii pair<int, int>;
+#define setprf(x) setprecision(x) << fixed
+#define setpr(x) setprecision(x)
 #define pll pair<ll, ll>;
 
 using namespace std;
@@ -24,7 +27,6 @@ typedef pair<ll,ll> pl;
 
 void solve()
 {
-    // your code here
     
 }
 
