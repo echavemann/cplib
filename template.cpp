@@ -22,6 +22,20 @@ using namespace std;
 typedef vector<ll> vl;
 typedef pair<ll,ll> pl;
 
+/* Uncomment for sieve
+ll n = 1e5+5;
+vt<ll>prime(n);
+void sieve() {
+    for(int i = 2; i < n; i++) {
+        if (prime[i]==0) {
+            for (int j = i; j <n; j+=i) {
+                prime[j]++;
+            }
+        }
+    }
+}
+*/
+
 void solve()
 {
     // your code here
