@@ -9,6 +9,7 @@
 #define S second
 #define uset unordered_set
 #define umap unordered_map
+#define pq priority_queue
 #define MP make_pair
 #define vt vector
 #define all(x) begin(x), end(x)
