@@ -12,6 +12,7 @@
 #define pq priority_queue
 #define MP make_pair
 #define vt vector
+#define ins insert
 #define all(x) begin(x), end(x)
 #define rall(x) rbegin(x), rend(x)
 #define sz(x) (int)x.size()
@@ -25,6 +26,8 @@ using namespace std;
 
 typedef vector<ll> vl;
 typedef pair<ll,ll> pl;
+typedef long double ld;
+typedef complex<ld> cd;
 
 void solve()
 {
