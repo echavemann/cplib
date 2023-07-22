@@ -4,6 +4,7 @@
 #define ll long long
 #define db double
 #define MOD 1000000007
+#define int128 __int128
 #define PB push_back
 #define F first
 #define S second
@@ -31,7 +32,7 @@ typedef complex<ld> cd;
 
 void solve()
 {
-    
+    // Be insane or die trying.
 }
 
 int main()
