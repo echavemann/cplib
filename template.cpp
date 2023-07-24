@@ -10,7 +10,6 @@
 #define S second
 #define uset unordered_set
 #define umap unordered_map
-#define pq priority_queue
 #define MP make_pair
 #define vt vector
 #define ins insert
@@ -21,13 +20,19 @@
 #define pii pair<int, int>;
 #define setprf(x) setprecision(x) << fixed
 #define setpr(x) setprecision(x)
+#define lb lower_bound
+#define ub upper_bound
 #define pll pair<ll, ll>;
 
 using namespace std;
 
+template<class T> using pq = priority_queue<T>;
+template<class T> using pqg = priority_queue<T, vector<T>, greater<T>>;
+
 typedef vector<ll> vl;
 typedef pair<ll,ll> pl;
 typedef long double ld;
+typedef unsigned long long ull;
 typedef complex<ld> cd;
 
 void solve()
