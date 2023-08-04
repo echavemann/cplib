@@ -1,5 +1,5 @@
 #include <vector>
-
+// TODO: check this thing lol
 class SegmentTree {
 private:
     std::vector<int> tree;
@@ -19,7 +19,7 @@ private:
 
     int query(int node, int start, int end, int left, int right) {
         if (left > end || right < start) {
-            return 0; // Return the neutral element (e.g., 0 for sum)
+            return 0;
         }
 
         if (left <= start && right >= end) {
@@ -35,7 +35,7 @@ private:
 public:
     SegmentTree(const std::vector<int>& nums) {
         n = nums.size();
-        tree.resize(4 * n); // We can adjust this size based on the maximum number of nodes in the tree.
+        tree.resize(4 * n);
         build(nums, 0, 0, n - 1);
     }
 
