@@ -16,7 +16,7 @@
 #define all(x) begin(x), end(x)
 #define rall(x) rbegin(x), rend(x)
 #define sz(x) (int)x.size()
-#define REP(i, a) for (int i = 0; i < a; i++)
+#define REP(i, a) for (long long i = 0; i < a; i++)
 #define pii pair<int, int>;
 #define setprf(x) setprecision(x) << fixed
 #define setpr(x) setprecision(x)
