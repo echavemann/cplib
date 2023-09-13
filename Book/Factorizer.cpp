@@ -1,4 +1,4 @@
-#Credits to gh user maksim 1744 for this prime factorizer! use when factorization speed is a problem.
+//Credits to gh user maksim 1744 for this prime factorizer! use when factorization speed is a problem.
 
 struct Factorizer {
     // Factorizer factorizer(prec_n, sp_bound, rng_seed);
