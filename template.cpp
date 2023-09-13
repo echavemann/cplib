@@ -15,7 +15,7 @@
 #define ins insert
 #define all(x) begin(x), end(x)
 #define rall(x) rbegin(x), rend(x)
-#define sz(x) (int)x.size()
+#define sz(x) (ll)x.size()
 #define REP(i, a) for (long long i = 0; i < a; i++)
 #define pii pair<int, int>;
 #define setprf(x) setprecision(x) << fixed
