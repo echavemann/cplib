@@ -1,4 +1,4 @@
-#pragma GCC optimize("O2,no-stack-protector,unroll-loops,fast-math")
+#pragma GCC optimize("O3,no-stack-protector,unroll-loops,fast-math")
 #include <iostream>
 #include <bits/stdc++.h>
 #define ll long long
